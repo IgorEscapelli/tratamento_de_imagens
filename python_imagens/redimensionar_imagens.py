@@ -14,8 +14,8 @@ if os.path.exists(pasta_saida):
 os.makedirs(pasta_saida)
 
 # Tamanho alvo (1000x1000) e margem interna
-tamanho_desejado = (1000, 1000)
-margem = 80
+tamanho_desejado = (445, 520)
+margem = 40
 
 for nome_arquivo in os.listdir(pasta_entrada):
     if nome_arquivo.lower().endswith(('.jpg', '.jpeg', '.png')):
